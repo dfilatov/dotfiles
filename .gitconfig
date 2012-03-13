@@ -1,0 +1,21 @@
+[user]
+        name = Dmitry Filatov
+        email = dfilatov@yandex-team.ru
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        di = diff
+        br = branch
+        hi = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short        
+[push]
+        default = current
+[branch]
+        autosetuprebase = always
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
